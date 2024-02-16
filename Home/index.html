@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,500;0,600;0,700;0,900;1,300;1,400;1,500;1,600;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Fickle Flight</title>
+  </head>
+  <body>
+    <!-- HEADER SECTION -->
+    <header>
+      <nav>
+        <img src="../Assets/Logo.svg" alt="fickel-logo" class="nav-logo" />
+        <div class="nav-right">
+          <ul class="nav-links">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="../Result/result.html" class="nav-link">Search</a></li>
+            <li><a href="../Hotels/hote.html" class="nav-link">Hotels</a></li>
+            <li><a href="" class="nav-link">Offers</a></li>
+          </ul>
+          <div class="nav-icons">
+            <img src="../Assets/notification.svg" alt="notify" />
+            <img src="../Assets/profile.svg" alt="profile-icon" />
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- HOME HERO SECTION -->
+
+    <section class="hero">
+      <div class="">
+        <h2 class="hero-title">Let’s explore & travel the world</h2>
+        <p class="hero-sub-title">
+          Find the best destinations and the most popular stays!
+        </p>
+      </div>
+      <div class="hero-content">
+        <div class="content-container">
+          <div class="content-top">
+            <h3 class="content-top-title">Search flights</h3>
+            <div class="content-top-content">
+              <div class="return-container">
+                <div class="return-dot"></div>
+                <p class="return-text">return</p>
+              </div>
+              <div class="return-container">
+                <div class="one-way-dot"><div class="one-dot"></div></div>
+                <p class="return-text">one-way</p>
+              </div>
+            </div>
+          </div>
+          <div class="content-bottom">
+            <div class="input-container">
+              <label class="hero-label">Departure</label>
+              <input
+                type="text"
+                placeholder="Singapore (SIN)"
+                class="hero-input"
+              />
+            </div>
+            <div class="input-container">
+              <label class="hero-label">Arrival</label>
+              <input
+                type="text"
+                placeholder="Los Angeles (LA)"
+                class="hero-input"
+              />
+            </div>
+            <div class="input-container">
+              <label class="hero-label">Date</label>
+              <input
+                type="date"
+                placeholder="Los Angeles (LA)"
+                class="hero-input"
+              />
+            </div>
+            <button class="hero-btn">search flights</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RECENT SEARCHES SECTION -->
+
+    <section class="recent-search">
+      <div class="recent-search-container">
+        <h2 class="recent-title">Recent Searches</h2>
+        <div class="recent-search-card-container">
+          <div class="recent-search-card-one">
+            <div class="search-card-top">
+              <h4 class="search-card-location">Sin</h4>
+              <img
+                src="../Assets/Flight icons.svg"
+                alt="flights"
+                class="search-flight"
+              />
+              <h4 class="search-card-location">lax</h4>
+            </div>
+            <p class="search-card-text">Depart on: 7 Sep 2021</p>
+          </div>
+          <div class="recent-search-card-one">
+            <div class="search-card-top">
+              <h4 class="search-card-location">my</h4>
+              <img
+                src="../Assets/Flight icons.svg"
+                alt="flights"
+                class="search-flight"
+              />
+              <h4 class="search-card-location">dub</h4>
+            </div>
+            <p class="search-card-text">Depart on: 9 Sep 2021</p>
+          </div>
+        </div>
+        <h2 class="prepare-title">Prepare for your trip</h2>
+
+        <div class="preparation-list">
+          <div class="preparation-item">
+            <img src="../Assets/hotelicon.svg" alt="hotelicon" />
+            <p class="">Hotel</p>
+          </div>
+          <div class="preparation-item">
+            <img src="../Assets/attractionsicon.svg" alt="hotelicon" />
+            <p class="">attraction</p>
+          </div>
+          <div class="preparation-item">
+            <img src="../Assets/eatsicon.svg" alt="hotelicon" />
+            <p class="">Eats</p>
+          </div>
+          <div class="preparation-item">
+            <img src="../Assets/commuteicon.svg" alt="hotelicon" />
+            <p class="">commute</p>
+          </div>
+          <div class="preparation-item">
+            <img src="../Assets/taxiicon.svg" alt="hotelicon" />
+            <p class="">taxi</p>
+          </div>
+          <div class="preparation-item">
+            <img src="../Assets/moviesicon.svg" alt="hotelicon" />
+            <p class="">movies</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRIP PREPARATION SECTION -->
+    <section class="trip-preparation">
+      <div class="trip-preparation-container">
+        <div class="trip-preparation-top">
+          <p class="trip-preparation-title">Plan your next trip</p>
+          <div class="trip-prepa-sub">
+            <p class="trip-preparation-title">View all destinations</p>
+            <img src="../Assets/arrow.svg" alt="arrow" class="trip-arrow" />
+          </div>
+        </div>
+        <h3 class="trip-preparation-main">Most Popular Destinations</h3>
+        <div class="trip-preparation-card-container">
+          <div class="trip-preparation-card">
+            <img
+              src="../Assets/ParisImage.svg"
+              alt="paris"
+              class="trip-preparation-card-img"
+            />
+            <div class="trip-info">
+              <p class="trip-city">Paris</p>
+              <div class="">
+                <p class="trip-from">from</p>
+                <h4 class="trip-price">$699</h4>
+              </div>
+            </div>
+          </div>
+          <div class="trip-preparation-card">
+            <img
+              src="../Assets/GreeceImage.svg"
+              alt="greece"
+              class="trip-preparation-card-img"
+            />
+            <div class="trip-info">
+              <p class="trip-city">greece</p>
+              <div class="">
+                <p class="trip-from">from</p>
+                <h4 class="trip-price">$1079</h4>
+              </div>
+            </div>
+          </div>
+          <div class="trip-preparation-card">
+            <img
+              src="../Assets/NorwayImage.svg"
+              alt="norway"
+              class="trip-preparation-card-img"
+            />
+            <div class="trip-info">
+              <p class="trip-city">norway</p>
+              <div class="">
+                <p class="trip-from">from</p>
+                <h4 class="trip-price">$895</h4>
+              </div>
+            </div>
+          </div>
+          <div class="trip-preparation-card">
+            <img
+              src="../Assets/TuscanyImage.svg"
+              alt="paris"
+              class="trip-preparation-card-img"
+            />
+            <div class="trip-info">
+              <p class="trip-city">tuscany</p>
+              <div class="">
+                <p class="trip-from">from</p>
+                <h4 class="trip-price">$1245</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RECOMMENDED SECTION -->
+    <section class="recommended-section">
+      <div class="recommended-section-container">
+        <div class="trip-preparation-top">
+          <h3 class="recommended-title">Recommended holidays</h3>
+          <div class="trip-prepa-sub">
+            <p class="recommended-sub-title">View all holidays</p>
+            <img src="../Assets/arrow.svg" alt="arrow" class="trip-arrow" />
+          </div>
+        </div>
+        <div class="recommended-card-container">
+          <div class="recommended-card">
+            <img
+              src="../Assets/rec1.svg"
+              alt="rec1"
+              class="recommended-card-img"
+            />
+            <div class="recommended-content">
+              <div class="">
+                <h4 class="recommended-card-name">Bali</h4>
+                <p class="recommended-card-tag">403N</p>
+              </div>
+              <h3 class="recommended-card-price">$899</h3>
+            </div>
+          </div>
+          <div class="recommended-card">
+            <img
+              src="../Assets/rec2.svg"
+              alt="rec1"
+              class="recommended-card-img"
+            />
+            <div class="recommended-content">
+              <div class="">
+                <h4 class="recommended-card-name">swiss</h4>
+                <p class="recommended-card-tag">605N</p>
+              </div>
+              <h3 class="recommended-card-price">$900</h3>
+            </div>
+          </div>
+          <div class="recommended-card">
+            <img
+              src="../Assets/rec3.svg"
+              alt="rec1"
+              class="recommended-card-img"
+            />
+            <div class="recommended-content">
+              <div class="">
+                <h4 class="recommended-card-name">boracay</h4>
+                <p class="recommended-card-tag">504N</p>
+              </div>
+              <h3 class="recommended-card-price">$699</h3>
+            </div>
+          </div>
+          <div class="recommended-card">
+            <img
+              src="../Assets/rec4.svg"
+              alt="rec1"
+              class="recommended-card-img"
+            />
+            <div class="recommended-content">
+              <div class="">
+                <h4 class="recommended-card-name">palawan</h4>
+                <p class="recommended-card-tag">403N</p>
+              </div>
+              <h3 class="recommended-card-price">$789</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- POPULARS HOTELS SECTION -->
+
+    <section class="popular-section">
+      <div class="popular-container">
+        <div class="trip-preparation-top">
+          <h3 class="recommended-title">popular stays</h3>
+          <div class="trip-prepa-sub">
+            <p class="trip-preparation-title">View all stays</p>
+            <img src="../Assets/arrow.svg" alt="arrow" class="trip-arrow" />
+          </div>
+        </div>
+        <div class="popular-card-container">
+          <div class="popular-card">
+            <img src="../Assets/hot1.svg" alt="hot1" class="popular-card-img" />
+
+            <div class="popular-card-content">
+              <div class="popular-card-content-top">
+                <p class="popular-place">Entire bungalow</p>
+                <img
+                  src="../Assets/play.svg"
+                  alt="play"
+                  class="popular-card-play"
+                />
+              </div>
+              <h4 class="popular-place-name">Matterhorn Suites</h4>
+              <p class="popular-place-price-tag">$575/night</p>
+              <div class="popular-reviews">
+                <img
+                  src="../Assets/star.svg"
+                  alt="star"
+                  class="popular-reviews-star"
+                />
+                <p class="popular-reviews-text">
+                  4.9 <span> (60 reviews)</span>
+                </p>
+              </div>
+
+              <button class="popular-card-btn">more details</button>
+            </div>
+          </div>
+          <div class="popular-card">
+            <img src="../Assets/hot2.svg" alt="hot1" class="popular-card-img" />
+
+            <div class="popular-card-content">
+              <div class="popular-card-content-top">
+                <p class="popular-place">Entire bungalow</p>
+                <img
+                  src="../Assets/play.svg"
+                  alt="play"
+                  class="popular-card-play"
+                />
+              </div>
+              <h4 class="popular-place-name">Matterhorn Suites</h4>
+              <p class="popular-place-price-tag">$575/night</p>
+              <div class="popular-reviews">
+                <img
+                  src="../Assets/star.svg"
+                  alt="star"
+                  class="popular-reviews-star"
+                />
+                <p class="popular-reviews-text">
+                  4.9 <span> (60 reviews)</span>
+                </p>
+              </div>
+
+              <button class="popular-card-btn">more details</button>
+            </div>
+          </div>
+          <div class="popular-card">
+            <img src="../Assets/hot3.svg" alt="hot1" class="popular-card-img" />
+
+            <div class="popular-card-content">
+              <div class="popular-card-content-top">
+                <p class="popular-place">Entire bungalow</p>
+                <img
+                  src="../Assets/play.svg"
+                  alt="play"
+                  class="popular-card-play"
+                />
+              </div>
+              <h4 class="popular-place-name">Matterhorn Suites</h4>
+              <p class="popular-place-price-tag">$575/night</p>
+              <div class="popular-reviews">
+                <img
+                  src="../Assets/star.svg"
+                  alt="star"
+                  class="popular-reviews-star"
+                />
+                <p class="popular-reviews-text">
+                  4.9 <span> (60 reviews)</span>
+                </p>
+              </div>
+
+              <button class="popular-card-btn">more details</button>
+            </div>
+          </div>
+          <div class="popular-card">
+            <img src="../Assets/hot4.svg" alt="hot1" class="popular-card-img" />
+
+            <div class="popular-card-content">
+              <div class="popular-card-content-top">
+                <p class="popular-place">Entire bungalow</p>
+                <img
+                  src="../Assets/play.svg"
+                  alt="play"
+                  class="popular-card-play"
+                />
+              </div>
+              <h4 class="popular-place-name">Matterhorn Suites</h4>
+              <p class="popular-place-price-tag">$575/night</p>
+              <div class="popular-reviews">
+                <img
+                  src="../Assets/star.svg"
+                  alt="star"
+                  class="popular-reviews-star"
+                />
+                <p class="popular-reviews-text">
+                  4.9 <span> (60 reviews)</span>
+                </p>
+              </div>
+
+              <button class="popular-card-btn">more details</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEWS LETTER SECTION -->
+
+    <section class="news-letter">
+      <div class="news-letter-container">
+        <h3 class="news-letter-top-title">subscribe to our newsletter</h3>
+        <h2 class="news-letter-sub-title">Get weekly updates</h2>
+
+        <div class="news-letter-form-container">
+          <div class="news-letter-internal">
+            <p class="news-form-title">
+              Fill in your details to join the party!
+            </p>
+            <div class="news-form">
+              <input
+                type="text"
+                placeholder="your Name"
+                class="news-form-input"
+              />
+              <input
+                type="email"
+                placeholder="Email Address"
+                class="news-form-input"
+              />
+            </div>
+            <button class="news-form-btn">submit</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-left">
+          <img
+            src="../Assets/footerlogo.svg"
+            alt="footerlogo"
+            class="footer-logo"
+          />
+          <p class="footer-content">
+            Fickle Flight is your one-stop travel portal. We offer hassle free
+            flight and <br />
+            hotel bookings. We also have all your flight needs in you online
+            shop.
+          </p>
+          <div class="footer-icons">
+            <img src="../Assets/facebook.svg" alt="facebook" />
+            <img src="../Assets/instagram.svg" alt="instagram" />
+            <img src="../Assets/twitter.svg" alt="twitter" />
+          </div>
+        </div>
+        <div class="footer-right">
+          <div class="footer-right-container">
+            <h4 class="footer-link-title">Company</h4>
+            <p class="footer-link">about us</p>
+            <p class="footer-link">news</p>
+            <p class="footer-link">careers</p>
+            <p class="footer-link">how we work</p>
+          </div>
+          <div class="footer-right-container">
+            <h4 class="footer-link-title">support</h4>
+            <p class="footer-link">account</p>
+            <p class="footer-link">support center</p>
+            <p class="footer-link">FAQ</p>
+            <p class="footer-link">accessibility</p>
+          </div>
+          <div class="footer-right-container">
+            <h4 class="footer-link-title">more</h4>
+            <p class="footer-link">covid advisory</p>
+            <p class="footer-link">airline fees</p>
+            <p class="footer-link">tips</p>
+            <p class="footer-link">quarantine rules</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
